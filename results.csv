@@ -1,0 +1,17 @@
+Image,Mode,Threads,AverageTime(ms)
+image512x512.jpg,sequential,1,80
+image512x512.jpg,sequential,4,50
+image512x512.jpg,sequential,8,49
+image512x512.jpg,sequential,16,49
+image512x512.jpg,concurrent,1,75
+image512x512.jpg,concurrent,4,48
+image512x512.jpg,concurrent,8,47
+image512x512.jpg,concurrent,16,48
+image2048x2048.jpg,sequential,1,1009
+image2048x2048.jpg,sequential,4,701
+image2048x2048.jpg,sequential,8,704
+image2048x2048.jpg,sequential,16,633
+image2048x2048.jpg,concurrent,1,1001
+image2048x2048.jpg,concurrent,4,672
+image2048x2048.jpg,concurrent,8,667
+image2048x2048.jpg,concurrent,16,648
